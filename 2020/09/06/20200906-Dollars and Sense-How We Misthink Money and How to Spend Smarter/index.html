@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta
+    name="google-site-verification"
+    content="xBT4GhYoi5qRD5tr338pgPM5OWHHIDR6mNg1a3euekI"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="blog" />
+  <meta name="keyword" content="RZ Huang" />
+  <link rel="shortcut icon" href="/img/favicon.png" />
+
+  <title>
+     《金錢心理學》心得與書摘 - RZ Huang | RZ&#39;s Blog 
+  </title>
+
+  <link
+    rel="canonical"
+    href="https://rz-huang.github.io/2020/09/06/20200906-Dollars and Sense-How We Misthink Money and How to Spend Smarter/"
+  />
+
+  <!-- Bootstrap Core CSS -->
+  
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+
+
+  <!-- Custom CSS -->
+  
+<link rel="stylesheet" href="/css/hux-blog.min.css">
+
+
+  <!-- Pygments Highlight CSS -->
+  
+<link rel="stylesheet" href="/css/highlight.css">
+
+
+  <!-- Custom Fonts -->
+  <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> -->
+  <!-- Hux change font-awesome CDN to qiniu -->
+  <link
+    href="https://cdn.staticfile.org/font-awesome/4.5.0/css/font-awesome.min.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+
+  <!-- Hux Delete, sad but pending in China
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/
+    css'>
+    -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- ga & ba script hoook -->
+  <script></script>
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">RZ&#39;s Blog</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    
+
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/about/">About</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/archives/">Archives</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
+                            <a href="/tags/">Tags</a>
+                        </li>
+                        
+                    
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+    <!-- Main Content -->
+    
+<!-- Image to hack wechat -->
+<!-- <img src="https://rz-huang.github.io/img/icon_wechat.png" width="0" height="0"> -->
+<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
+
+<!-- Post Header -->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('header.jpg')
+    }
+</style>
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                          <a class="tag" href="/tags/#read" title="read">read</a>
+                        
+                    </div>
+                    <h1>《金錢心理學》心得與書摘</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        Posted by RZ on
+                        2020-09-06
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+    <!-- Post Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                <p>呼，從六月底到現在，終於新增部落格的第二篇文章了 XDD 這邊都快長灰塵了。</p>
+<p>這篇文章想要記錄最近看完的這本書 —《金錢心理學》的重點與書摘，因為看完沒多久馬上在現實生活中體驗到書中所講的情境！直接雞皮疙瘩掉滿地，還不給他記錄一下裱框傳承給下一代。</p>
+<p>以下內容有一部分是我自己經過閱讀後，消化後的解釋；有些則是直接節錄書中內容的段落，通常在沒什麼解釋但有「 」包著的段落，都是直接節錄的部分。</p>
+<p>然後這是我頭一次比較詳細記錄閱讀的筆記，若有語意不順的地方還請見諒&lt;(_ _)&gt;，有要討論的地方或是給予建議的，因為我還沒研究好部落格 comment 的功能，所以現在還沒辦法直接在文章下面留言，不過可以直接 mail 到我的信箱：<a href="mailto:eilin0603@gmail.com" target="_blank" rel="noopener">eilin0603@gmail.com</a> ，感恩！</p>
+<hr>
+<h2 id="機會成本與金錢的使用"><a href="#機會成本與金錢的使用" class="headerlink" title="機會成本與金錢的使用"></a>機會成本與金錢的使用</h2><p>把金錢的使用與機會成本做關聯，可以想像成，假設今天你買一件衣服 500 元，那麼你其餘物品的預算就會少掉這 500 元。換句話說，你這筆 500 元選擇在衣服上做花費，等同放棄其它物品的選擇。</p>
+<h3 id="延伸機會成本的概念"><a href="#延伸機會成本的概念" class="headerlink" title="延伸機會成本的概念"></a>延伸機會成本的概念</h3><p>對於面對折價（或其它常用於商品的優惠方案）後的商品，我們應該思考的是當下的花費，此花費等同放棄其它物品的選擇。盡量避免因為折價後會省多少錢的這種想法，因為我們不會知道折價後實際上替我們省了多少，只看到折價後的價格與標示原價的差距就認為我們有省到錢，是很大的盲點。</p>
+<p>舉我自己最近觀察到的生活案例，我在全 X 買了平常習慣會喝的某大廠品牌的無糖豆漿，而最近買的時候有看到被標示是優惠價，但價格卻比之前的還貴 4 元。所以你怎能夠確定折價後的價格是真的有便宜到？但也不是說有折價的商品別買，而是別因為折價而買，是你真的有需要才買（我還是會買那牌的無糖豆漿，直到有我更喜歡的豆漿出現），就是以機會成本的考量為出發點理性消費。</p>
+<h2 id="商品的價值主張"><a href="#商品的價值主張" class="headerlink" title="商品的價值主張"></a>商品的價值主張</h2><p>上面有提到說我們不會知道商品折價後實際上替我們省了多少，這也帶出我們很難知道商品的公定價應該是多少才算合理，也因為這樣的模糊價值現象，我們往往需要藉由相對價值來和商品做比對，也就是說我們需要一個基準點來判斷商品的價值是否合理。比如 A、B、C 店賣一顆蘋果 40 元，D 店賣一顆一樣的蘋果 50 元，那我們就可以知道 D 店的蘋果價格相對貴一點。然而，這種價值主張的特性，往往有機會被別人利用。</p>
+<p>相對的價值，擺在一起就顯而易見，在某個例子中指出，原先一個雜誌社推出雜誌 59 元的線上版與 125 元的印刷版，59 元的線上版買的人多了一些，而當方案多了一個：「125 元的印刷版加線上版」的選項時，買了「125 元的印刷版加線上版」的人卻是最多的。</p>
+<h2 id="人們善於逃避痛苦"><a href="#人們善於逃避痛苦" class="headerlink" title="人們善於逃避痛苦"></a>人們善於逃避痛苦</h2><p>有時候掏錢會令自身痛苦，而會導致消費時會考慮痛苦承受的程度。不過<strong>付錢的時間點若與取得商品的時間點越遠，痛苦程度可能會越低</strong>。常見的付費方式大方向分成「預付」、「當下付」與「後付」（像是信用卡），若商品銷售傾向「預付」與「後付」，消費者買單的機率會較高（這也是卡奴的由來）。免費也是價格的一種，若原本免費的東西變成要付費，可能會讓消費者趨避痛苦的機制觸發。</p>
+<h2 id="定錨效應"><a href="#定錨效應" class="headerlink" title="定錨效應"></a>定錨效應</h2><p>人們對於不確定其價值的事物，會根據僅有的線索與過往的經驗去假想其價值（儘管我們沒意識到）。甚至，會習慣類似的事物的價值就是在某個區間範圍（如蘋果公定價一顆 40 元），令之後的價值判定都會以過往習慣的價值來做比對或是比對的起始點（同時與前面提到的價值主張有關）。這點在股市中很明顯可以觀察到，許多投資者會根據個股歷史的股價來決定買賣點，儘管公司的現況（無論是基本面或市場對於其價值的認同等）今非昔比。</p>
+<p>定錨效應很常被店家應用在菜單，在一份菜單中，店家可以故意擺設單價很高的單品，那麼顧客對比便宜的單品時，會很容易認為買到就賺到，但其實有時候店家擺設單價很高的單品是為了誘導你去購買相對便宜的商品（在這份菜單中相對便宜）。</p>
+<h2 id="自我因循"><a href="#自我因循" class="headerlink" title="自我因循"></a>自我因循</h2><p>根據過往的經驗去推斷類似的事物的價值。由於<strong>曾經經歷過且是正向</strong>的，因此很容易會靠之前的決策判斷來執行當前的評估決策，畢竟對於之前來說這是好的，所以對於自身的評估而有信心，且做起來相對容易（畢竟之前下過決定了）。這和定錨效應有關聯，而且很有機會讓你做出自己認為是對的決策，而沒意識到盲點與風險性。</p>
+<h2 id="高估自己擁有的物品的價值"><a href="#高估自己擁有的物品的價值" class="headerlink" title="高估自己擁有的物品的價值"></a>高估自己擁有的物品的價值</h2><p>自己愛惜呵護過的物品，並且把它塑造成你喜歡的樣子，因此你會認為它本來就是一個好東西，但別人可能不會這麼認為，而這其中一個原因是：「你放感情下去了」。</p>
+<p>有個典型的例子可以形容所有權感的產生：「Ikea 效應」，當你費盡千辛萬苦從 Ikea 買回家具，並且花了一個下午組裝它（儘管組裝完還有多的螺絲沒用到），你會很驕傲、有成就感，你就會捨不得賣掉它。或者是你要賣房子，以為你的房子值得這個價，但市場卻不領情。免費試用商品，店家的試用品都是為了讓顧客與商品有所接觸，當與商品處得越久就會越喜歡它，彷彿好像已經擁有了它一樣（虛擬所有權），這就像拍賣會，你還沒拍賣到的時候就已經開始在幻想要拿這件東西做什麼，因此當你買不到的時候，那個難受度會令你又繼續加碼，因為你已經認為這是你已擁有的。</p>
+<p>延伸到股市也是一樣，你買下這檔股票的同時，可能會開始思考它漲到某某點時，獲利了多少，要把這個獲利的錢拿來補貼家用、買下一檔或是幹嘛去的，這就有可能會讓你做出錯誤的投資決策，凹單不放手，或是新低又加碼之類的。</p>
+<h2 id="損失趨避傾向與敝帚自珍效應"><a href="#損失趨避傾向與敝帚自珍效應" class="headerlink" title="損失趨避傾向與敝帚自珍效應"></a>損失趨避傾向與敝帚自珍效應</h2><p>「損失趨避傾向與敝帚自珍效應（敝帚自珍效應可參考<a href="https://www.pokem.tw/2018/07/AfterRead.DOLLAR.AND.SENSE.01.html" target="_blank" rel="noopener">這篇</a>）相伴，我們不想失去自己擁有的東西，有部分是因為我們高估了價值；而我們高估了價值，有部分是因為我們不想失去它」。</p>
+<p>人們對於<strong>損失的感受比起獲得還強烈</strong>，不同的解讀方式就會有不同的感受（儘管結果相同），像是現在跟你說「你每個月有八成的資金可以利用，其餘是退休金」和「每個月必須付出兩成的薪水作為退休金」，往往前者描述的感受會令聽者較願意執行，但你可能會說，不是都一樣嗎？對的，但通常只會出現其中一句話，而不會有兩句話給你做對比，同時，這樣同個一意思但用不同角度闡述的包裝方式往往會有賣家拿來利用，令你買單。</p>
+<p>股價下跌時的難過程度，是股價上漲時快樂程度的兩倍，「它使我們太快賣掉獲利的持股，因為我們不想失去那些利得；卻使我們繼續持有賠錢的股票太久，因為我們不想實現那些股票的虧損」。</p>
+<h2 id="匯總損失，切分利得"><a href="#匯總損失，切分利得" class="headerlink" title="匯總損失，切分利得"></a>匯總損失，切分利得</h2><p>讓我們感覺只有一筆痛苦的損失，但是卻可以獲得許多快樂的利得，就是把損失趨避顛倒來操作，讓你獲得的數量多一點，以減輕損失時的痛苦。</p>
+<p>而賣家可以善加利用這點讓消費者更願意買單，比方說資訊型的廣告就很常看到，隨便舉個腳踏車廣告範例好了，廣告可以這麼下：「它的把手經過國家級認證，搭配近似碳纖維級的車身，擁有獨特可神龍擺尾之車尾，而且它有不凡的輪子，而且是兩輪互相平衡的精密調教機制產生而成，最後，車身 Size 不分老少 3 分鐘馬上熟練上秋明山。」消費者看到有這麼多特點（利得），而且濃縮成只要付一筆（一筆痛苦），可能就會有較大意願買單（儘管這些特點是硬拆或硬掰出來的）。</p>
+<h2 id="關切公平性與費力的程度"><a href="#關切公平性與費力的程度" class="headerlink" title="關切公平性與費力的程度"></a>關切公平性與費力的程度</h2><p>有時候我們會傾向消費的事物，其賣方應該公平些付出，才會較願意買單且不抱怨，比如說請鎖匠來開門，如果鎖匠開門不用一分鐘，可能會讓某些人不禁懷疑只花鎖匠一分鐘就要給他這麼多錢？但事實是鎖匠確實幫你解決你的困擾了（而且我們並沒有看到鎖匠以往背後所做的努力）。或是當公司在選擇承包商時，A 和 B 兩個承包商競爭，若當 B 承包商闡述團隊花了多久的時間研究，且做了哪些努力；比起 A 僅僅講述重點而沒有灑狗血的口白，有可能就會讓公司傾向選擇 B 承包商（就算 A 承包商的能力強於 B 承包商）。</p>
+<p>也就是說，我們若想要讓別人買單，要做到讓人家看到你背後的過程（透明化）。不過，反過來說，要小心別人利用這點（透明化）讓你買單。</p>
+<h4 id="實際的例子"><a href="#實際的例子" class="headerlink" title="實際的例子"></a>實際的例子</h4><p>因為 Google 沒有刻意展現背後的演算法處理過程，對於 Google 引擎的搜尋速度這麼快，一般人不容易感覺到它的厲害之處，且會覺得這本來就是它該做的事。<br>外送平台的送餐進度，可以讓消費者看到「食物的運送過程」，對消費者具一定吸引力。</p>
+<h2 id="相信文字與儀式的神奇力量"><a href="#相信文字與儀式的神奇力量" class="headerlink" title="相信文字與儀式的神奇力量"></a>相信文字與儀式的神奇力量</h2><p>在餐館點菜，服務生說明單品：｢本地老山羊羊奶起司搭配手工製草飼牛肉，加上鮮採蔬果，有祖傳藤熟番茄，混綠熟菜，以及從上千品種挑出來的精選洋蔥，保留獨特的混合風味，進口自世界各地，通過專家的變異數分析。｣，對比在辦公室吃著同樣的單品，我們傾向喜歡前者在餐館的食物（當然也有環境的因素差異）。</p>
+<p>「我們其實是在各項東西的描述之間做出選擇，而不是在各項東西之間做出選擇。」</p>
+<p>商品加上單一原產地就會不同、咖啡加幾段文字就會覺得有價值。語言文字有效傳達物品背後費力程度和公平性。愈是看不懂、聽不懂，就愈有價值。</p>
+<p>儀式：增進任何體驗的感受。比如宗教的儀式、品酒搖晃酒杯酒會變得好喝、Oreo 轉一轉泡一泡。</p>
+<h2 id="過度重視預期"><a href="#過度重視預期" class="headerlink" title="過度重視預期"></a>過度重視預期</h2><p>比如分析師預期某上市公司績效會很好，所以股價會先漲一波，但若實際上績效比預期差或是沒有預期這麼高，股價就有可能會跌回去。<br>知名品牌讓你預期它們的商品都會很好。<br>過去相同的經驗預期這次一樣會很好。<br>商品若先付款，之後體驗，對於商品的期望作用會更大，而加深商品的喜歡程度。</p>
+<h2 id="太側重金錢"><a href="#太側重金錢" class="headerlink" title="太側重金錢"></a>太側重金錢</h2><p>對一件物品沒那麼了解實際價值時，會根據其價格決定它的價值（儘管貴得可能不是這麼好用，但我們有可能在買之前本來就不知道它的實用性如何）。若一項本來應該昂貴的物品，因成本降低或其他原因，價格也跟著價低，人們可能會懷疑其真實性或是否可靠（比如牙醫診所收費很便宜，你敢去嗎）。</p>
+<p>衡量兩件不同商品時可以根據自己的喜好選擇，但若是相同商品，很容易因價格而衡量其價值，比如 50 元蘋果和 500 元蘋果。或許可以換個角度想，把事物與金錢的比較，換成事物與事物的比較，比如買了這顆 500 元的蘋果，等同放棄加了好幾次機車汽油的機會，或是一件新衣服，儘管可能不是最有效率與最理性的方式，把金錢抽出來做機會成本的分析，或許可以幫助做重大決策。</p>
+<h2 id="總結"><a href="#總結" class="headerlink" title="總結"></a>總結</h2><p>我們沒辦法知道什麼時候會掉進價格的陷阱漩渦裡，但我們可以換個角度想，在財務決策中，<strong>不應該考量的因素且要提防</strong>的有哪些，像是：</p>
+<ul>
+<li>特價，或節省了多少錢，或在購買此商品時，花了多少錢購買另一項（就是第二件半折之類的）。</li>
+<li>付錢的輕鬆程度不應該是影響消費的主要因素。</li>
+<li>最先看到的第一個價格，或是以往購買的價格作為這次購買的依據（定錨效應）。</li>
+<li>對物品的所有權感影響你的價值判斷（損失趨避傾向與敝帚自珍效應）。</li>
+<li>一件事看起來是否賣力而決定採用或購買（公平性與費力程度）。</li>
+<li>只比較一項商品的價格，而非它的本質（太側重金錢）。</li>
+<li>在消費時，受描述、介紹的華美詞彙影響而決定消費（文字的力量），以及我們在體驗一項事物時所做的行為而偏好它（儀式的力量）。</li>
+<li>對消費體驗已有預期，而非消費體驗事物的本質（過度重視預期）。</li>
+</ul>
+<h4 id="增加自制力"><a href="#增加自制力" class="headerlink" title="增加自制力"></a>增加自制力</h4><ul>
+<li>回到未來：想像和未來的自己（老人）對話。用明確的時間規劃未來。善用科技與未來的自己對話（比如 FaceApp）。</li>
+<li>「尤里西斯」策略：實際限制自己的消費。比如預先設定信用卡限制、只用簽帳金融卡。預先提撥一筆金額儲蓄。或是把退休儲蓄提撥設定為自動預設選擇（也就是若沒改變預設，那就會自動做退休儲蓄的提撥，變相解決惰性與人類的慣性）。指定一定金額給特定帳戶和心理帳戶。</li>
+<li>替代性獎酬：未來才會得到的獎酬與當前即可得的獎酬相比，具不確定性、不好捉摸，所以通常當前獎酬的評價會比較高，因此可以利用這樣的方式，假設有一件事情做了之後所獲得的報酬，必須等到好幾年才拿得到，可以先以當前可以獲得得獎酬作為替代品，比如為自己吃上一頓好料的，那麼也許就會更願意去做。</li>
+</ul>
+<h4 id="想一些方法對抗"><a href="#想一些方法對抗" class="headerlink" title="想一些方法對抗"></a>想一些方法對抗</h4><ul>
+<li>把錢到其他帳戶，欺騙自己。</li>
+<li>財富錯覺：「這杯咖啡每天花 100 元，和一年花 40000 元」的差別；如同月薪與年薪的概念，後者的金額呈現可能會讓你較容易規劃長期的財務。</li>
+<li>先支付給自己：先把固定收入的一部份移走，把開銷調整到較低的消費水準，再把先前移走的一部分當作一筆獎金。</li>
+</ul>
+<h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p><strong>不要懷疑，免費真的是最貴的</strong>（高估自身擁有的商品的價值）。</p>
+
+
+                <hr>
+
+                
+
+                <ul class="pager">
+                    
+                    
+                        <li class="next">
+                            <a href="/2020/06/27/20200627-first/" data-toggle="tooltip" data-placement="top" title="第一篇">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
+
+                
+
+                
+
+            </div>
+    <!-- Side Catalog Container -->
+        
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+        
+
+    <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <!-- <section> -->
+                    <!-- no hr -->
+                    <!-- <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/tags/#read" title="read">read</a>
+                        
+                    </div> -->
+                <!-- </section> -->
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'always',
+          placement: 'right',
+          icon: '#'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+            
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/RZ-Huang"
+            >
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+           
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/冠智-黃-7b3997122/"
+            >
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">
+          &copy; RZ&#39;s Blog 2022 | Powered
+          by <a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>
+          <br />
+          Theme by <a href="http://huangxuan.me" target="_blank" rel="noopener">Hux</a>
+          <span style="display: inline-block; margin: 0 5px">
+            <i class="fa fa-heart"></i>
+          </span>
+          Ported by <a href="http://blog.kaijun.rocks" target="_blank" rel="noopener">Kaijun</a> |
+          <iframe
+            style="margin-left: 2px; margin-bottom: -5px"
+            frameborder="0"
+            scrolling="0"
+            width="91px"
+            height="20px"
+            src="https://ghbtns.com/github-btn.html?user=kaijun&repo=hexo-theme-huxblog&type=star&count=true"
+          >
+          </iframe>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- jQuery -->
+
+<script src="/js/jquery.min.js"></script>
+
+
+<!-- Bootstrap Core JavaScript -->
+
+<script src="/js/bootstrap.min.js"></script>
+
+
+<!-- Custom Theme JavaScript -->
+
+<script src="/js/hux-blog.min.js"></script>
+
+
+<!-- async load function -->
+<script>
+  function async(u, c) {
+    var d = document,
+      t = "script",
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener(
+        "load",
+        function (e) {
+          c(null, e);
+        },
+        false
+      );
+    }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+
+<!-- 
+     Because of the native support for backtick-style fenced code blocks 
+     right within the Markdown is landed in Github Pages, 
+     From V1.6, There is no need for Highlight.js, 
+     so Huxblog drops it officially.
+
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/    
+-->
+<!--
+    <script>
+        async("http://cdn.bootcss.com/highlight.js/8.6/highlight.min.js", function(){
+            hljs.initHighlightingOnLoad();
+        })
+    </script>
+    <link href="http://cdn.bootcss.com/highlight.js/8.6/styles/github.min.css" rel="stylesheet">
+-->
+
+<!-- jquery.tagcloud.js -->
+<script>
+  // only load tagcloud.js in tag.html
+  if ($("#tag_cloud").length !== 0) {
+    async(
+      "https://rz-huang.github.io/js/jquery.tagcloud.js",
+      function () {
+        $.fn.tagcloud.defaults = {
+          //size: {start: 1, end: 1, unit: 'em'},
+          color: { start: "#bbbbee", end: "#0085a1" },
+        };
+        $("#tag_cloud a").tagcloud();
+      }
+    );
+  }
+</script>
+
+<!--fastClick.js -->
+<script>
+  async(
+    "https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js",
+    function () {
+      var $nav = document.querySelector("nav");
+      if ($nav) FastClick.attach($nav);
+    }
+  );
+</script>
+
+<!-- Google Analytics -->
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- Side Catalog -->
+
+<script type="text/javascript">
+  function generateCatalog(selector) {
+    var P = $("div.post-container"),
+      a,
+      n,
+      t,
+      l,
+      i,
+      c;
+    a = P.find("h1,h2,h3,h4,h5,h6");
+    a.each(function () {
+      n = $(this).prop("tagName").toLowerCase();
+      i = "#" + $(this).prop("id");
+      t = $(this).text();
+      c = $('<a href="' + i + '" rel="nofollow">' + t + "</a>");
+      l = $('<li class="' + n + '_nav"></li>').append(c);
+      $(selector).append(l);
+    });
+    return true;
+  }
+
+  generateCatalog(".catalog-body");
+
+  // toggle side catalog
+  $(".catalog-toggle").click(function (e) {
+    e.preventDefault();
+    $(".side-catalog").toggleClass("fold");
+  });
+
+  /*
+   * Doc: https://github.com/davist11/jQuery-One-Page-Nav
+   * Fork by Hux to support padding
+   */
+  async("/js/jquery.nav.js", function () {
+    $(".catalog-body").onePageNav({
+      currentClass: "active",
+      changeHash: !1,
+      easing: "swing",
+      filter: "",
+      scrollSpeed: 700,
+      scrollOffset: 0,
+      scrollThreshold: 0.2,
+      begin: null,
+      end: null,
+      scrollChange: null,
+      padding: 80,
+    });
+  });
+</script>
+
+
+
+
+<!-- Image to hack wechat -->
+<img src="https://rz-huang.github.io/img/icon_wechat.png" width="0" height="0" />
+<!-- Migrate from head to bottom, no longer block render and still work -->
+
+</body>
+
+</html>
